@@ -1,5 +1,3 @@
-
-
 local v8 = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))();
 local v9 = v8:MakeWindow({
     Name = 'Infernium Blade Ball',
