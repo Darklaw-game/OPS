@@ -67,7 +67,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Metaverse",
     Callback = function()
-        https://raw.githubusercontent.com/Pro666Pro/AutoGetMetaverse/refs/heads/main/OpenSource.lua
+            loadstring(game:HttpsGet("https://raw.githubusercontent.com/Pro666Pro/AutoGetMetaverse/refs/heads/main/OpenSource.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -91,7 +91,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Bob",
     Callback = function()
-        loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/AutoGetBob/refs/heads/main/main.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/AutoGetBob/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -99,7 +99,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Untitled Tag",
     Callback = function()
-        loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/autogettagglove/refs/heads/main/main.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/autogettagglove/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -107,7 +107,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Clock",
     Callback = function()
-         loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/AutoGetClockExtended/refs/heads/main/main.lua",true))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/AutoGetClockExtended/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -115,7 +115,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "FishVoodooTrap",
     Callback = function()
-        loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/fish-voodoo-trap/refs/heads/main/main.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/fish-voodoo-trap/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
