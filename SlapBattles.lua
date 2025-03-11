@@ -122,12 +122,7 @@ local Window = Rayfield:CreateWindow({
 
  local GuisTab = Window:CreateTab("Guis", 4483362458) -- Title, Image
  
- local Button = badgesTab:CreateButton({
-    Name = "Autowin-Tourtament",
-    Callback = function()
-    -- The function that takes place when the button is pressed
-    end,
- })
+
  
  local GuisButton = GuisTab:CreateButton({
     Name = "King Sbeve",
