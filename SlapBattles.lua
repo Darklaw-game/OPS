@@ -189,16 +189,13 @@ local Window = Rayfield:CreateWindow({
  local GuisButton = GuisTab:CreateButton({
     Name = "Recall",
     Callback = function()
-        local Button = badgesTab:CreateButton({
-            Name = "recall cheat",
-            Callback = function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/recallcheatsheet/refs/heads/main/main.lua",true))()
-                -- Function           
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/recallcheatsheet/refs/heads/main/main.lua",true))()
+    -- The function that takes place when the button is pressed
     end,
  })
 
  local GuisButton = GuisTab:CreateButton({
-    Name = "Bob2",
+    Name = "Bob",
     Callback = function()
         loadstring(game:HttpGet"https://pastefy.app/7qbY4h0Z/raw")()
     -- The function that takes place when the button is pressed
