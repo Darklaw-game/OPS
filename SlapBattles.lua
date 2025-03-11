@@ -184,7 +184,7 @@ local Window = Rayfield:CreateWindow({
  local GuisButton = GuisTab:CreateButton({
     Name = "Recall",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/recallcheatsheet/refs/heads/main/main.lua",true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/recallcheatsheet/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
