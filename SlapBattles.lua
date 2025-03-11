@@ -99,7 +99,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Untitled Tag",
     Callback = function()
-        https://raw.githubusercontent.com/Pro666Pro/autogettagglove/refs/heads/main/main.lua
+        loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/autogettagglove/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -107,7 +107,7 @@ local Window = Rayfield:CreateWindow({
  local Button = badgesTab:CreateButton({
     Name = "Auto-Get Clock",
     Callback = function()
-        https://raw.githubusercontent.com/Pro666Pro/AutoGetClockExtended/refs/heads/main/main.lua
+         loadstring(game:HttpGet("raw.githubusercontent.com/Pro666Pro/AutoGetClockExtended/refs/heads/main/main.lua",true))()
     -- The function that takes place when the button is pressed
     end,
  })
@@ -195,7 +195,7 @@ local Window = Rayfield:CreateWindow({
  })
 
  local GuisButton = GuisTab:CreateButton({
-    Name = "Bob",
+    Name = "Bob2",
     Callback = function()
         loadstring(game:HttpGet"https://pastefy.app/7qbY4h0Z/raw")()
     -- The function that takes place when the button is pressed
