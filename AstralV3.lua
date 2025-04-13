@@ -60,6 +60,3 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
-
-
-["UI Settings"] = Window:AddTab("UI Settings", "settings"),
