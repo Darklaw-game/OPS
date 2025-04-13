@@ -36,5 +36,3 @@ local Button = LeftGroupbox:AddButton({
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
-
-Key = Window:AddKeyTab("Key System"),
