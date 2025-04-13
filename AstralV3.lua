@@ -56,13 +56,6 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = LeftGroupbox:AddButton({
-        Text = "Anti-Afk"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githhttps://pastebin.com/raw/TRCYuX46ubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralV3.1.Lua",true))()
-        end,
-        DoubleClick = false
-
 local gloveTab = Window:AddTab("Gloves", "icon")
 local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
 local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
