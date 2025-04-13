@@ -37,5 +37,4 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local statsTab = Window:AddTab("stats", "home") -- Second parameter is the icon name (optional)
 
