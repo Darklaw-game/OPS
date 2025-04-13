@@ -26,7 +26,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -34,7 +34,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 
@@ -53,7 +53,22 @@ local Button = RightGroupbox:AddButton({
 local Button = RightGroupbox:AddButton({
     Text = "Killerfish",
     Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/FreekillerfishforEveryone.txt",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/Killerfish.txt"))()
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
+
+local badgeTab = Window:AddTab("Badges", "icon")
+local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
+local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
+
+local SlapsFarmTab = window:AddTab("SlapsFarm", "icon')
+    local RightGroupBox = badgeTab:addRightGroupBox("Info")
+    local LeftGroupBox = badgeTab:addLeftGroupBox("Slapple")
+local Button = LeftGroupBox:AddButton({
+            Text = "Slapple Farm then serverhop"
+            Func = function()
+                loadstring(game:HttpGet("https://pastefy.app/ySC93ccp/raw"))()
+            end,
+            DoubleClick = false
+        })
