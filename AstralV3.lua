@@ -22,28 +22,29 @@ local Button = LeftGroupbox:AddButton({
 })
 
 local Button = LeftGroupbox:AddButton({
-        Text = "Project Astral"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
-        end,
-        DoubleClick = true
-    })
+    Text = "Project Astral Original",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
 
 local Button = LeftGroupbox:AddButton({
-        Text = "Giang Hub"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
-        end,
-        DoubleClick = true
-    })
+    Text = "Giang Hub",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
 
 local Button = LeftGroupbox:AddButton({
-        Text = "Vinq"
-        Func = Function()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
-        end,
-        DoubleClick = false
-    })
+    Text = "Vinq",
+    Func = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
 
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
