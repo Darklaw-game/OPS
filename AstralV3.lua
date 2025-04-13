@@ -18,7 +18,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-astro-Sb-Legacy/refs/heads/main/Legacy%20ver"))();
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
