@@ -8,6 +8,7 @@ local Window = Library:CreateWindow({
     AutoShow = true
 })
 
+local Stattab = Window:AddTab("stat", "icon")
 local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
