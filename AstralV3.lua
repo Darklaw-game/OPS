@@ -37,7 +37,13 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-
+local Button = LeftGroupbox:AddButton({
+    Text = "Bacon Mastery",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/0-BaconScripter-0/Script/refs/heads/main/Slap%20Battles/Mastery%20Farm"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
 
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
