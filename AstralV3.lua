@@ -3,7 +3,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 local Window = Library:CreateWindow({
     Title = "Project Astral",
     Footer = "v1.1",
-    Icon = 6718018778,
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
@@ -102,6 +101,56 @@ local Button = RightGroupbox:AddButton({
     Text = "Killerfish",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/Killerfish.txt"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "Sans",
+    Func = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "Minos Prime",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade.txt"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = LeftGroupbox:AddButton({
+    Text = "EdgeLord"))()",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Donjosx/SBScriptsLink/refs/heads/main/DonjoSx's-edgelord-FE.lua"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "Inco sans godmode",
+    Func = function()
+        _G.GodMode = true --[SET TO TRUE IF YOU WANT GODMODE]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGlove"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "Inco sans no godmode",
+    Func = function()
+        _G.GodMode = false --[SET TO TRUE IF YOU WANT GODMODE]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGlove"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "Death",
+    Func = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-Death-Glove-Script-30411"))()
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
