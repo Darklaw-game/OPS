@@ -32,7 +32,7 @@ local Button = RightGroupbox:Addbutton({
 local Button = RightGroupbox:AddButton({
     Text = "change nickname",
     Func = function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/b00jkidd/765572fc9ca3f81b7bd61ab2b265a51e/raw/6bda970602897b191e57851920db9749387221bf/slap%2520battles%2520hide%2520name%2520script"))()
+        while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
