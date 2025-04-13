@@ -47,7 +47,7 @@ local WrappedLabel = RightGroupbox:AddLabel({
     DoesWrap = true
 })
 
-local Button = Groupbox:AddButton({
+local Button = RightGroupbox:AddButton({
     Text = "Stats",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralStats.lua",true))()
