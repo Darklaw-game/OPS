@@ -19,10 +19,11 @@ local Button = Groupbox:AddButton({
 
 local GloveTab = Window:AddTab("Gloves", "home")
 
-Local button = Groupbox:AddButton({
+local button = Groupbox:AddButton({
     text = "Sprg Glove"
-    func = function()
+    Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
     end,
-    doubleclick = false -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
+end
