@@ -21,10 +21,3 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:AddButton({
-    Text = "change nickname",
-    Func = function()
-        while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
