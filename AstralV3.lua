@@ -38,10 +38,10 @@ local Button = LeftGroupbox:AddButton({
 })
 
 local Stattab = Window:AddTab("stat", "icon")
-local LeftGroupbox = StatTab:AddLeftGroupbox("Main")
-local RightGroupbox = StatTab:AddRightGroupbox("Informatiormation")
+local LeftGroupbox = statTab:AddLeftGroupbox("Main")
+local RightGroupbox = statTab:AddRightGroupbox("Informatiormation")
 
-local Label = RightGroupbox:AddLabel("Information")
+local StatTab = RightGroupbox:AddLabel("Information")
 local WrappedLabel = RightGroupbox:AddLabel({
     Text = "Use /console in chat for stats (rn only glove and slaps)",
     DoesWrap = true
