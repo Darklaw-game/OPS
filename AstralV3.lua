@@ -21,13 +21,7 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = LeftGroupbox:AddButton({
-    Text = "Project Astral Original",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
+
 
 
 local Button = LeftGroupbox:AddButton({
@@ -51,7 +45,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local gloveTab = Window:AddTab("Gloves", "icon")
