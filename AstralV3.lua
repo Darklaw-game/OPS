@@ -14,9 +14,17 @@ local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("Bypass AC")
 
 local Button = LeftGroupbox:AddButton({
-    Text = "Legacy Sprg Hub",
+    Text = "Legacy Project astral",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-astro-Sb-Legacy/refs/heads/main/Legacy%20ver"))();
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
+})
+
+local Button = RightGroupbox:Addbutton({
+    Text = "Bypass Anticheat",
+    Func = function
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
+    end,
+    DoubleClick = false
 })
