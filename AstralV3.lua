@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 
 local Window = Library:CreateWindow({
     Title = "Project Astral",
-    Footer = "v0.0.0",
+    Footer = "v0.1",
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
@@ -66,7 +66,3 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
-
-local badgeTab = Window:AddTab("Badges", "icon")
-local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
-local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
