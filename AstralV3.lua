@@ -61,7 +61,7 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = Groupbox:AddButton({
+local Button = LeftGroupbox:AddButton({
     Text = "Alchamist Abuser",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/Alchemist%20abuser.lua",true))()
