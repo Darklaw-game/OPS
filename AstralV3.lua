@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 
 local Window = Library:CreateWindow({
     Title = "Project Astral",
-    Footer = "v1.0.0",
+    Footer = "v1.0.2",
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
@@ -38,5 +38,5 @@ local Button = RightGroupbox:AddButton({
 })
 
 local statTab = Window:AddTab("Stat", "icon")
-local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
+local LeftGroupbox = StatTab:AddLeftGroupbox("hubs")
+local RightGroupbox = StatTab:AddRightGroupbox("AC and Rec")
