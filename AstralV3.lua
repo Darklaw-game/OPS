@@ -18,7 +18,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-astro-Sb-Legacy/refs/heads/main/Legacy%20ver"))();
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 
@@ -28,7 +28,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -36,7 +36,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local gloveTab = Window:AddTab("Gloves", "icon")
@@ -48,7 +48,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
