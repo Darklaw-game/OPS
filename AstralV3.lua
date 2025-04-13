@@ -58,8 +58,14 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local badgeTab = Window:AddTab("Badges", "icon")
-local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
-local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
-
-
+local SlapsFarmTab = window:AddTab("SlapsFarm", "icon')
+    local RightGroupBox = badgeTab:addRightGroupBox("Info")
+    local LeftGroupBox = badgeTab:addLeftGroupBox("Slapple")
+    
+local Button = LeftGroupBox:AddButton({
+            Text = "Slapple Farm then serverhop"
+            Func = function()
+                loadstring(game:HttpGet("https://pastefy.app/ySC93ccp/raw"))()
+            end,
+            DoubleClick = false
+        })
