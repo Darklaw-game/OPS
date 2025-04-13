@@ -39,14 +39,6 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:AddButton({
-        name = "Slapple Farm"
-        Func = function()
-            loadstring(game:HttpGet("https://pastefy.app/ySC93ccp/raw"))()
-        end,
-        DoubleClick = false
-    })
-
 local gloveTab = Window:AddTab("Gloves", "icon")
 local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
 local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
