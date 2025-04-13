@@ -37,20 +37,6 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Stattab = Window:AddTab("Stat", "icon")
+local statTab = Window:AddTab("Stat", "icon")
 local LeftGroupbox = StatTab:AddLeftGroupbox("Main")
 local RightGroupbox = statTab:AddRightGroupbox("Informatiormation")
-
-local Stattab = RightGroupbox:AddLabel("Information")
-local WrappedLabel = RightGroupbox:AddLabel({
-    Text = "Use /console in chat for stats (rn only glove and slaps)",
-    DoesWrap = true
-})
-
-local Button = RightGroupbox:AddButton({
-    Text = "Stats",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralStats.lua",true))()
-    end,
-    DoubleClick = false -- Requires double-click for risky actions
-})
