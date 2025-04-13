@@ -53,3 +53,4 @@ local Label = LeftGroupbox:AddLabel("instructions")
 local WrappedLabel = LeftGroupbox:AddLabel({
     Text = "make sure to use /console in chat to view your statistics"
     DoesWrap = true
+    })
