@@ -82,7 +82,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/EludeGlove.luau'))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local Button = LeftGroupbox:AddButton({
@@ -90,7 +90,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/CounterGlove.luau'))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 ])
     
 local Button = LeftGroupbox:AddButton({
@@ -98,7 +98,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/ClockGlove.luau'))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })    
 
 local Button = LeftGroupbox:AddButton({
@@ -106,6 +106,6 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/BoxerGlove.luau'))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
     
