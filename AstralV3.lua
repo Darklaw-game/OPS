@@ -26,7 +26,7 @@ local Button = LeftGroupbox:AddButton({
         Func = Function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
         end,
-        DoubleClick = false
+        DoubleClick = true
     })
 
 local Button = LeftGroupbox:AddButton({
@@ -34,7 +34,7 @@ local Button = LeftGroupbox:AddButton({
         Func = Function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
         end,
-        DoubleClick = false
+        DoubleClick = true
     })
 
 local Button = LeftGroupbox:AddButton({
@@ -50,7 +50,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
