@@ -38,6 +38,7 @@ local Button = LeftGroupbox:AddButton({
 })
 
 local statsTab = Window:AddTab("stats", "home") -- Second parameter is the icon name (optional)
+
 local LeftGroupbox = statsTab:AddLeftGroupbox("stats")
 local RightGroupbox = statsTab:AddRightGroupbox("uh")
 local Button = LeftGroupbox:AddButton({
@@ -49,7 +50,6 @@ local Button = LeftGroupbox:AddButton({
 })
 
 local Label = LeftGroupbox:AddLabel("instructions")
-local WrappedLabel = Groupbox:AddLabel({
+local WrappedLabel = LeftGroupbox:AddLabel({
     Text = "make sure to use /console in chat to view your statistics"
     DoesWrap = true
-})
