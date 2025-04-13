@@ -38,5 +38,13 @@ local Button = RightGroupbox:AddButton({
 })
 
 local gloveTab = Window:AddTab("Gloves", "icon")
-local LeftGroupbox = gloveTab:AddLeftGroupbox("hubs")
-local RightGroupbox = gloveTab:AddRightGroupbox("AC nd Rec")
+local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
+local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
+
+local Button = RightGroupbox:AddButton({
+    Text = "Sprg Glove",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
+    end,
+    DoubleClick = false -- Requires double-click for risky actions
+})
