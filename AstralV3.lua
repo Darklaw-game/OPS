@@ -38,9 +38,33 @@ local Button = LeftGroupbox:AddButton({
 })
 
 local Button = LeftGroupbox:AddButton({
+    Text = "Badge hub",
+    Func = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/MasteryFarmGui/refs/heads/main/main.lua'))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = LeftGroupbox:AddButton({
     Text = "Bacon Mastery",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0-BaconScripter-0/Script/refs/heads/main/Slap%20Battles/Mastery%20Farm"))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = LeftGroupbox:AddButton({
+    Text = "Mastery Donjo",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/MasteryHelper.NewestVersion",true))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+
+local Button = Groupbox:AddButton({
+    Text = "Alchamist Abuser",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/Alchemist%20abuser.lua",true))()
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
