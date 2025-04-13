@@ -22,16 +22,6 @@ local Button = LeftGroupbox:AddButton({
 })
 
 
-
-
-local Button = LeftGroupbox:AddButton({
-    Text = "Giang Hub",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
     Func = function()
