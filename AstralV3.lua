@@ -66,10 +66,3 @@ local SlapsFarmTab = window:AddTab("SlapsFarm", "icon")
     local RightGroupBox = badgeTab:addRightGroupBox("Info")
     local LeftGroupBox = badgeTab:addLeftGroupBox("Slapple")
     
-local Button = LeftGroupBox:AddButton({
-            Text = "Slapple Farm then serverhop"
-            Func = function()
-                loadstring(game:HttpGet("https://pastefy.app/ySC93ccp/raw"))()
-            end,
-            DoubleClick = false
-        })
