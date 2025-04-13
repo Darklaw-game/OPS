@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 
 local Window = Library:CreateWindow({
     Title = "Project Astral",
-    Footer = "v1",
+    Footer = "v1.1",
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
@@ -37,9 +37,20 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
+local Button = LeftGroupbox:AddButton({
+        Text = "BaconMastery"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/0-BaconScripter-0/Script/refs/heads/main/Slap%20Battles/Mastery%20Farm"))()
+        end,
+        DoubleClick = true
 
-
-
+    local Button = LeftGroupbox:AddButton({
+        Text = "giangHub"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+        end,
+        DoubleClick = false
+                
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
     Func = function()
@@ -56,6 +67,14 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
+local Button = RightGroupbox:AddButton({
+    Text = "AntiAfk",
+    Func = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TRCYuX46",true))()
+    end,
+    DoubleClick = true -- Requires double-click for risky actions
+})
+                
 local gloveTab = Window:AddTab("Gloves", "icon")
 local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
 local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
@@ -76,6 +95,6 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local BadgeTab = Window:AddTab("Badges", "icon")
+local BadgeTab = Window:AddTab("Badge", "icon")
 local rightGroupBox = BadgeTab:AddrightGroupbox("Not auto")
 local LeftGroupBox = BadgeTab:AddleftGroupbox("Auto farm/get")
