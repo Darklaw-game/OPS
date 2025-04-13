@@ -39,4 +39,4 @@ local Button = RightGroupbox:AddButton({
 
 local statTab = Window:AddTab("Stat", "icon")
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
+local RightGroupbox = MainTab:AddRightGroupbox("AC nd Rec")
