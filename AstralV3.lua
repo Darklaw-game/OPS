@@ -50,3 +50,10 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
+local Button = RightGroupbox:AddButton({
+    Text = "Killerfish",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/FreekillerfishforEveryone.txt",true))()
+    end,
+    DoubleClick = false -- Requires double-click for risky actions
+})
