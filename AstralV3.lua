@@ -66,15 +66,7 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
-
-local Button = RightGroupbox:AddButton({
-    Text = "AntiAfk",
-    Func = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/TRCYuX46",true))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-                
+            
 local gloveTab = Window:AddTab("Gloves", "icon")
 local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
 local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
@@ -94,7 +86,3 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
-
-local BadgeTab = Window:AddTab("Badge", "icon")
-local rightGroupBox = BadgeTab:AddrightGroupbox("Not auto")
-local LeftGroupBox = BadgeTab:AddleftGroupbox("Auto farm/get")
