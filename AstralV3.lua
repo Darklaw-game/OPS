@@ -79,21 +79,3 @@ local Button = RightGroupbox:AddButton({
 local BadgeTab = Window:AddTab("Badges", "icon")
 local rightGroupBox = BadgeTab:AddrightGroupbox("Not auto")
 local LeftGroupBox = BadgeTab:AddleftGroupbox("Auto farm/get")
-
-
-    local Button = LeftGroupbox:AddButton({
-    Text = "Clock",
-    Func = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/ClockGlove.luau'))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})    
-
-local Button = LeftGroupbox:AddButton({
-    Text = "Boxer",
-    Func = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/OpenSourceScripts/refs/heads/main/Gloves/BoxerGlove.luau'))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
