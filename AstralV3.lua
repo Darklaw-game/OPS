@@ -40,7 +40,7 @@ local Button = LeftGroupbox:AddButton({
 local Button = LeftGroupbox:AddButton({
     Text = "Badge hub",
     Func = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/MasteryFarmGui/refs/heads/main/main.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/UltimateBadgeHub/refs/heads/main/main.lua",true))()
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
