@@ -11,7 +11,7 @@ local Window = Library:CreateWindow({
 local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
+local RightGroupbox = MainTab:AddRightGroupbox("General")
 
 local Button = LeftGroupbox:AddButton({
     Text = "Legacy Project astral",
@@ -20,6 +20,30 @@ local Button = LeftGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
+
+local Button = LeftGroupbox:AddButton({
+        Text = "Project Astral"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
+        end,
+        DoubleClick = false
+    })
+
+local Button = LeftGroupbox:AddButton({
+        Text = "Giang Hub"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+        end,
+        DoubleClick = fa;se
+    })
+
+local Button = LeftGroupbox:AddButton({
+        Text = "Vinq"
+        Func = Function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
+        end,
+        DoubleClick = false
+    })
 
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
@@ -37,6 +61,13 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
+local Button = RightGroupbox:AddButton({
+        name = "Slapple Farm"
+        Func = function()
+            loadstring(game:HttpGet("https://pastefy.app/ySC93ccp/raw"))()
+        end,
+        DoubleClick = false
+    })
 
 local gloveTab = Window:AddTab("Gloves", "icon")
 local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
@@ -62,7 +93,4 @@ local badgeTab = Window:AddTab("Badges", "icon")
 local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
 local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
 
-local SlapsFarmTab = window:AddTab("SlapsFarm", "icon")
-    local RightGroupBox = badgeTab:addRightGroupBox("Info")
-    local LeftGroupBox = badgeTab:addLeftGroupBox("Slapple")
-    
+local Button = 
