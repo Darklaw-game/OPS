@@ -11,7 +11,7 @@ local Window = Library:CreateWindow({
 local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
+local RightGroupbox = MainTab:AddRightGroupbox("importaint")
 
 local Button = LeftGroupbox:AddButton({
     Text = "Legacy Project astral",
