@@ -49,10 +49,10 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local Button = LeftGroupBox:AddButton({
-        Text = "killerfish FE'
-        Func = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent/Donjosx/SBScriptsLink/refs/heads/main/DonjoSx'sKillerfish.lua"))()
-        end,
-        DoubleClick = false
-    })
+local Button = LeftGroupbox:AddButton({
+    Text = "Killerfish",
+    Func = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Donjosx/SBScriptsLink/refs/heads/main/DonjoSx'sKillerfish.lua",true))()
+    end,
+    DoubleClick = false -- Requires double-click for risky actions
+})
