@@ -21,13 +21,7 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = LeftGroupbox:AddButton({
-    Text = "Project Astral Original",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
+
 
 local Button = LeftGroupbox:AddButton({
     Text = "Vinq",
