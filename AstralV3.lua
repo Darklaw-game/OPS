@@ -8,8 +8,7 @@ local Window = Library:CreateWindow({
     AutoShow = true
 })
 
-
-local StatsTab = Window:AddTab("stats", "home") -- Second parameter is the icon name (optional)
+local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
@@ -38,20 +37,4 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-
-local LeftGroupbox = statsTab:AddLeftGroupbox("stats")
-local RightGroupbox = statsTab:AddRightGroupbox("uh")
-local Button = LeftGroupbox:AddButton({
-    Text = "Click Me",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralStats.lua",true))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
-
-local Label = LeftGroupbox:AddLabel("instructions")
-local WrappedLabel = LeftGroupbox:AddLabel({
-    Text = "make sure to use /console in chat to view your statistics"
-    DoesWrap = true
-    })
+Key = Window:AddKeyTab("Key System"),
