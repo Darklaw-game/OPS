@@ -11,7 +11,7 @@ local Window = Library:CreateWindow({
 local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("Bypass AC")
+local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
 
 local Button = LeftGroupbox:AddButton({
     Text = "Legacy Project astral",
@@ -21,10 +21,18 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:AddButton({
-    Text = "Bypass anti cheat",
-    Func = function()
+local Button = RightGroupbox:Addbutton({
+    Text = "Bypass Anticheat",
+    Func = function
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
+    end,
+    DoubleClick = true
+})
+
+local Button = RightGroupbox:AddButton({
+    Text = "change nickname",
+    Func = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/b00jkidd/765572fc9ca3f81b7bd61ab2b265a51e/raw/6bda970602897b191e57851920db9749387221bf/slap%2520battles%2520hide%2520name%2520script"))()
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
