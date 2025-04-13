@@ -61,3 +61,10 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = true -- Requires double-click for risky actions
 })
+tabs.stats:AddButton({
+        text = "CLick me",
+        Func = Function()
+            print("hi"),
+            end,
+            DoubleClick = False
+    })
