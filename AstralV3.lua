@@ -113,27 +113,3 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:AddButton({
-    Text = "Minos Prime",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/MinosPrimeFanMade.txt"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
-local Button = LeftGroupbox:AddButton({
-    Text = "EdgeLord"))()",
-    Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Donjosx/SBScriptsLink/refs/heads/main/DonjoSx's-edgelord-FE.lua"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
-
-local Button = RightGroupbox:AddButton({
-    Text = "Death",
-    Func = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-Death-Glove-Script-30411"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
