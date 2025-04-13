@@ -42,14 +42,7 @@ local Button = LeftGroupbox:AddButton({
         Func = Function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/0-BaconScripter-0/Script/refs/heads/main/Slap%20Battles/Mastery%20Farm"))()
         end,
-        DoubleClick = false
-
-    local Button = LeftGroupbox:AddButton({
-        Text = "giangHub"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
-        end,
-        DoubleClick = false
+        DoubleClick = true
 
 
 local Button = RightGroupbox:AddButton({
