@@ -18,7 +18,7 @@ local Button = LeftGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-astro-Sb-Legacy/refs/heads/main/Legacy%20ver"))();
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -42,9 +42,9 @@ local LeftGroupbox = gloveTab:AddLeftGroupbox("Mojos Gloves")
 local RightGroupbox = gloveTab:AddRightGroupbox("Other Gloves")
 
 local Button = RightGroupbox:AddButton({
-    Text = "Sprg Glove",
+    Text = "SprgGlove",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
     end,
-    DoubleClick = false -- Requires double-click for risky actions
+    DoubleClick = true -- Requires double-click for risky actions
 })
