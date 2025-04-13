@@ -8,7 +8,7 @@ local Window = Library:CreateWindow({
     AutoShow = true
 })
 
-local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
+local MainTab = Window:AddTab("Main", "user") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("General")
@@ -80,3 +80,6 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
+
+
+["UI Settings"] = Window:AddTab("UI Settings", "settings"),
