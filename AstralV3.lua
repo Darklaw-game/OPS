@@ -2,13 +2,13 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 
 local Window = Library:CreateWindow({
     Title = "Project Astral",
-    Footer = "v0.1",
+    Footer = "v1",
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
 })
 
-local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
+local MainTab = Window:AddTab("Main", "icon") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("General")
