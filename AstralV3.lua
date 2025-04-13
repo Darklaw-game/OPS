@@ -21,13 +21,6 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local Button = LeftGroupbox:AddButton({
-        Text = "Project Astral"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
-        end,
-        DoubleClick = false
-    })
 
 
 local Button = RightGroupbox:AddButton({
@@ -77,5 +70,3 @@ local Button = RightGroupbox:AddButton({
 local badgeTab = Window:AddTab("Badges", "icon")
 local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
 local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
-
-local Button = 
