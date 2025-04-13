@@ -129,23 +129,6 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local Button = RightGroupbox:AddButton({
-    Text = "Inco sans godmode",
-    Func = function()
-        _G.GodMode = true --[SET TO TRUE IF YOU WANT GODMODE]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGlove"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-
-local Button = RightGroupbox:AddButton({
-    Text = "Inco sans no godmode",
-    Func = function()
-        _G.GodMode = false --[SET TO TRUE IF YOU WANT GODMODE]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGlove"))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
 
 local Button = RightGroupbox:AddButton({
     Text = "Death",
