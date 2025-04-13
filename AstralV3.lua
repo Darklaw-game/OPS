@@ -38,7 +38,7 @@ local Button = RightGroupbox:AddButton({
 })
 
 local Stattab = Window:AddTab("stat", "icon")
-local LeftGroupbox = statTab:AddLeftGroupbox("Main")
+local LeftGroupbox = StatTab:AddLeftGroupbox("Main")
 local RightGroupbox = statTab:AddRightGroupbox("Informatiormation")
 
 local StatTab = RightGroupbox:AddLabel("Information")
@@ -54,17 +54,3 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
-local Button = RightGroupbox:AddButton({
-    Text = "Click Me",
-    Func = function()
-        print("Button clicked!")
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
-tabs.stats:AddButton({
-        text = "CLick me",
-        Func = Function()
-            print("hi"),
-            end,
-            DoubleClick = False
-    })
