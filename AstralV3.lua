@@ -23,13 +23,7 @@ local Button = LeftGroupbox:AddButton({
 
 
 
-local Button = LeftGroupbox:AddButton({
-    Text = "Vinq",
-    Func = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
-    end,
-    DoubleClick = true -- Requires double-click for risky actions
-})
+
 
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
