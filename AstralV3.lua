@@ -64,9 +64,9 @@ local Button = LeftGroupbox:AddButton({
 local Button = LeftGroupbox:AddButton({
     Text = "Alchamist Abuser",
     Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/Alchemist%20abuser.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Testerhubplayer/Slap-battle/main/Slap_battle_alchemist_edition.lua",true))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -74,7 +74,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -82,7 +82,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
             
 local gloveTab = Window:AddTab("Gloves", "hand")
@@ -94,7 +94,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -102,7 +102,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KietVN02202/KietVN02202/refs/heads/main/Killerfish.txt"))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -110,6 +110,6 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
