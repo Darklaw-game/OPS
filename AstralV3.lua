@@ -57,3 +57,8 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
+
+local badgeTab = Window:AddTab("Badges", "icon")
+local LeftGroupBox = badgeTab:addLeftGroupBox("Auto")
+local RightGroupBox = badgeTab:addRightGroupBox("Non-Auto")
+
