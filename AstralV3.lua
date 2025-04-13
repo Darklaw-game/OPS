@@ -37,6 +37,6 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local statTab = Window:AddTab("Stat", "icon")
-local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
-local RightGroupbox = MainTab:AddRightGroupbox("AC nd Rec")
+local gloveTab = Window:AddTab("Gloves", "icon")
+local LeftGroupbox = gloveTab:AddLeftGroupbox("hubs")
+local RightGroupbox = gloveTab:AddRightGroupbox("AC nd Rec")
