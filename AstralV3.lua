@@ -9,6 +9,7 @@ local Window = Library:CreateWindow({
 })
 
 local MainTab = Window:AddTab("Main", "home") -- Second parameter is the icon name (optional)
+local StatsTab = Window:AddTab("stats", "home") -- Second parameter is the icon name (optional)
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("AC and Rec")
@@ -37,7 +38,7 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
-local statsTab = Window:AddTab("stats", "home") -- Second parameter is the icon name (optional)
+
 local LeftGroupbox = statsTab:AddLeftGroupbox("stats")
 local RightGroupbox = statsTab:AddRightGroupbox("uh")
 local Button = LeftGroupbox:AddButton({
