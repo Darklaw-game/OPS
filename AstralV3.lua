@@ -21,14 +21,36 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = true -- Requires double-click for risky actions
 })
 
+local Button = LeftGroupbox:AddButton({
+        Text = "Project Astral"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/Project-Astro/refs/heads/main/Project%20Astro",true))()
+        end,
+        DoubleClick = false
+    })
 
+local Button = LeftGroupbox:AddButton({
+        Text = "Giang Hub"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+        end,
+        DoubleClick = false
+    })
+
+local Button = LeftGroupbox:AddButton({
+        Text = "Vinq"
+        Func = Function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
+        end,
+        DoubleClick = false
+    })
 
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiCheat/refs/heads/main/main.lua",true))()
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
@@ -36,7 +58,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         while wait() do game.Players.LocalPlayer.Character.Head.Nametag.TextLabel.Text = "Astro" end
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local gloveTab = Window:AddTab("Gloves", "icon")
@@ -48,7 +70,7 @@ local Button = RightGroupbox:AddButton({
     Func = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jwjshdiwj/SPRG-glove/refs/heads/main/SPRG"))();
     end,
-    DoubleClick = true -- Requires double-click for risky actions
+    DoubleClick = false -- Requires double-click for risky actions
 })
 
 local Button = RightGroupbox:AddButton({
