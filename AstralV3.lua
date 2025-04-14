@@ -114,6 +114,6 @@ local Button = RightGroupbox:AddButton({
 })
 
 local TeleTab = Window:AddTab("Teleports", "arrow-left-right") -- Second parameter is the icon name (optional)
-local LeftGroupbox = MainTab:AddLeftGroupbox("Ingame")
-local RightGroupbox = MainTab:AddRightGroupbox("OutGame")
+local LeftGroupbox = TeleTab:AddLeftGroupbox("Ingame")
+local RightGroupbox = TeleTab:AddRightGroupbox("OutGame")
 
