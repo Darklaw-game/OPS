@@ -113,7 +113,12 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local TeleTab = Window:AddTab("Teleports", "arrow-left-right") -- Second parameter is the icon name (optional)
-local LeftGroupbox = TeleTab:AddLeftGroupbox("Ingame")
-local RightGroupbox = TeleTab:AddRightGroupbox("OutGame")
-
+local LeftGroupbox = MainTab:AddLeftGroupbox("Ingame")
+local RightGroupbox = MainTab:AddRightGroupbox("OutGame")
+Local Button = LeftGroupbox;addButton({
+        Text = "Lobby'
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/TpLobbySB.lua",true))()
+        end,
+        DoubleClick = false
+    })
