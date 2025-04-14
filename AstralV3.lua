@@ -12,7 +12,7 @@ local Window = Library:CreateWindow({
 
 local MainTab = Window:AddTab("Main", "building") -- Second parameter is the icon name (optional)
 
-if Game.PlaceId = 6403373529 then
+
     local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("General")
 
@@ -115,6 +115,3 @@ local Button = RightGroupbox:AddButton({
     end,
     DoubleClick = false -- Requires double-click for risky actions
 })
-
-else
-end
