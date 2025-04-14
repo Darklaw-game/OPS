@@ -115,3 +115,10 @@ local Button = RightGroupbox:AddButton({
 
 local LeftGroupbox = MainTab:AddLeftGroupbox("Ingame")
 local RightGroupbox = MainTab:AddRightGroupbox("OutGame")
+local Button = LeftGroupbox:AddButton({
+        text = "Lobby Teleport"
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/TpLobbySB.lua",true))()
+        end,
+        DoubleClick = false
+    })
