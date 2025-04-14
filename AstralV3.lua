@@ -8,9 +8,12 @@ local Window = Library:CreateWindow({
     AutoShow = true
 })
 
+
+
 local MainTab = Window:AddTab("Main", "building") -- Second parameter is the icon name (optional)
 
-local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
+if Game.PlaceId = 6403373529 then
+    local LeftGroupbox = MainTab:AddLeftGroupbox("hubs")
 local RightGroupbox = MainTab:AddRightGroupbox("General")
 
 local Button = LeftGroupbox:AddButton({
@@ -113,12 +116,5 @@ local Button = RightGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
-local LeftGroupbox = MainTab:AddLeftGroupbox("Ingame")
-local RightGroupbox = MainTab:AddRightGroupbox("OutGame")
-local Button = LeftGroupbox:AddButton({
-        text = "Lobby Teleport"
-        Func = Function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/TpLobbySB.lua",true))()
-        end,
-        DoubleClick = false
-    })
+else
+end
