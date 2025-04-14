@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deivi
 
 local Window = Library:CreateWindow({
     Title = "Project Astral",
-    Footer = "v1.1",
+    Footer = "v1.2",
     ToggleKeybind = Enum.KeyCode.RightControl,
     Center = true,
     AutoShow = true
@@ -117,3 +117,10 @@ local TeleTab = Window:AddTab("Teleports", "arrow-left-right") -- Second paramet
 local LeftGroupbox = TeleTab:AddLeftGroupbox("Ingame")
 local RightGroupbox = TeleTab:AddRightGroupbox("OutGame")
 
+Local Button = LeftGroupbox;addButton({
+        Text = "Lobby'
+        Func = Function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/TpLobbySB.lua",true))()
+        end,
+        DoubleClick = false
+    })
