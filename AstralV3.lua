@@ -72,6 +72,14 @@ local Button = LeftGroupbox:AddButton({
     DoubleClick = false -- Requires double-click for risky actions
 })
 
+local Button = LeftGroupbox:AddButton({
+    Text = "Project Echo Backup",
+    Func = function()
+        loadstring(game:HttpGet("https://pastefy.app/1wt162jE/raw",true))()
+    end,
+    DoubleClick = false -- Requires double-click for risky actions
+})
+
 local Button = RightGroupbox:AddButton({
     Text = "Anticheat",
     Func = function()
